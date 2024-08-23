@@ -9,6 +9,9 @@ Display the dimension and type of a tensor
 -------------------------------------------------
 print(data.shape, data.dtype)
 
+create a pytorch optimizer :
+----------------------------
+optimizer = torch.optim.Adam(m.parameter(), lr=1e-3)
 
 
 Loss measurement with the negavive log likelyhood :
