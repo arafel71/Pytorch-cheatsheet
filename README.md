@@ -14,6 +14,7 @@ print(data.shape, data.dtype)
 Loss measurement with the negavive log likelyhood :
 --------------------------------------------------
 https://pytorch.org/docs/stable/generated/torch.nn.functional.cross_entropy.html
+https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss
 
 import torch.nn as nn
 from torch.nn import functional as F
