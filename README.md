@@ -16,4 +16,4 @@ Loss measurement with the negavive log likelyhood :
 import torch.nn as nn
 from torch.nn import functional as F
 
-loss2 = F.cross_entropy(logits, target)
+loss = F.cross_entropy(logits, target)
